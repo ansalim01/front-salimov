@@ -1,0 +1,73 @@
+@import url("./_normalize.css");
+
+.wrapper {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+}
+
+._container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 0.625rem;
+}
+.header {
+  text-align: center;
+  z-index: 3;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: transform 0.1s linear;
+  background-color: white;
+}
+
+.header__top {
+  display: inline-flex;
+  width: 100%;
+  height: 82px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 1.8rem;
+  padding-bottom: 1.6rem;
+}
+.loppa {
+  position: absolute;
+  right: calc(0% + 0.625rem);
+  top: 0%;
+  bottom: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+input {
+  border: 1px solid darkgray;
+  border-radius: 4px;
+  width: 120px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 564px) {
+  .header__top {
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 1rem;
+  }
+  .loppa {
+    position: sticky;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+/* ///////// */
