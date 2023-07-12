@@ -44,7 +44,6 @@ function Home() {
   }, [lastScrollY]);
   return (
     <div className="wrapper">
-      <div className={toggleBurgerMenu ? "blur" : ""}></div>
       <div
         className="wrapper__container"
         style={{ paddingTop: `${headerHeight}px` }}
@@ -77,6 +76,7 @@ function Home() {
               <img src={loupe} alt="loupe" />
             </div>
           </div>
+
           <Menu
             toggleBurgerMenu={toggleBurgerMenu}
             setToggleBurgerMenu={setToggleBurgerMenu}

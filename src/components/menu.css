@@ -80,17 +80,22 @@
     top: 0;
     left: 0;
     bottom: 0;
-    right: 30%;
+    right: 15%;
     background-color: white;
     transition: transform 0.2s linear;
     transform: translate(-130%, 0px);
-    overflow-y: scroll;
   }
   .header__menu.active {
     transform: translate(0%, 0px);
   }
   .menu_container {
+    position: relative;
+    top: 0;
     padding: 2rem 1.25rem 0;
+    height: 100%;
+    overflow: scroll;
+  }
+  .menu__items {
   }
   .menu__item {
     flex-direction: column;
@@ -109,16 +114,16 @@
   .blur {
     position: fixed;
     top: 0;
-    left: 0;
+    left: 100%;
+    right: 100%;
     bottom: 0;
-    right: 0;
     width: 100vw;
     height: 100vh;
     backdrop-filter: blur(2px);
     filter: blur(2px);
     z-index: 0;
-
-    /* background-color: #969696; */
+  }
+  .menu {
   }
   .menu__items {
     display: flex;

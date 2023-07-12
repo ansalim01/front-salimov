@@ -17,6 +17,7 @@ function Menu({ toggleBurgerMenu, setToggleBurgerMenu }: PropsMenu) {
       className={toggleBurgerMenu ? `header__menu active` : `header__menu`}
       onClick={() => setToggleBurgerMenu(false)}
     >
+      <div className={toggleBurgerMenu ? "blur" : ""}></div>
       <div
         className="menu_container _container"
         onClick={(e) => e.stopPropagation()}
@@ -30,6 +31,7 @@ function Menu({ toggleBurgerMenu, setToggleBurgerMenu }: PropsMenu) {
             alt="borger"
           />
         </div>
+
         <nav className="menu">
           <ul className="menu__items">
             {navData.map((item, index) => (
