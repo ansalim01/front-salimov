@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/front-salimov/static/css/main.fa589705.css",
+    "main.js": "/front-salimov/static/js/main.613f88d9.js",
+    "static/media/Logo.svg": "/front-salimov/static/media/Logo.1f7d6f7902153b6d6a401a6f1a2ea311.svg",
+    "static/media/x.svg": "/front-salimov/static/media/x.a18ba8b482296074ef10264e0d3619f9.svg",
+    "static/media/W.svg": "/front-salimov/static/media/W.e09e29837485fbad43d4226dd8bef6ad.svg",
+    "static/media/Combined Shape.svg": "/front-salimov/static/media/Combined Shape.4b2d8b1b348be7c581d3defdfdbb6840.svg",
+    "index.html": "/front-salimov/index.html",
+    "static/media/B.svg": "/front-salimov/static/media/B.4203022e3c69bcf64f0ce441d3a42308.svg",
+    "static/media/arrow.svg": "/front-salimov/static/media/arrow.9bbffe505c0f0512cb2b4f58e64dec91.svg",
+    "main.fa589705.css.map": "/front-salimov/static/css/main.fa589705.css.map",
+    "main.613f88d9.js.map": "/front-salimov/static/js/main.613f88d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa589705.css",
+    "static/js/main.613f88d9.js"
+  ]
+}
